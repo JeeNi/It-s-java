@@ -1,6 +1,7 @@
 package object;
 
-class Calculator{
+class Calculator {
+	
 	int left, right;
 	
 	public void setOperands(int left, int right) {
