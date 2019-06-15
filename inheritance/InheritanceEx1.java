@@ -2,7 +2,12 @@ package inheritance;
 
 class Calculator {
     int left, right;
- 
+     
+    public Calculator(int left, int right){
+        this.left = left;
+        this.right = right;
+    }
+     
     public void setOprands(int left, int right) {
         this.left = left;
         this.right = right;
@@ -28,7 +33,7 @@ class SubstractionableCalculator extends Calculator {
     }
 }
  
-public class CalculatorConstructorDemo4 {
+public class CalculatorConstructorDemo5 {
     public static void main(String[] args) {
         SubstractionableCalculator c1 = new SubstractionableCalculator(10, 20);
         c1.sum();
