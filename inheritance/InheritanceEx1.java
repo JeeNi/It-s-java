@@ -3,9 +3,7 @@ package inheritance;
 class Calculator {
     int left, right;
      
-    public Calculator(){
-         
-    }
+    public Calculator(){}
      
     public Calculator(int left, int right){
         this.left = left;
@@ -27,8 +25,7 @@ class Calculator {
 }
 class SubstractionableCalculator extends Calculator {
     public SubstractionableCalculator(int left, int right) {
-        this.left = left;
-        this.right = right;
+        super(left, right);
     }
  
     public void substract() {
