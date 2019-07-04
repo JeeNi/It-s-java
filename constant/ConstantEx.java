@@ -93,7 +93,6 @@ public class ConstantEx1 {
 }
 */
 
-/*
 class Fruit {
 	public static final Fruit APPLE = new Fruit();
 	public static final Fruit PEACH = new Fruit();
@@ -106,7 +105,7 @@ class Company {
 	public static final Company ORACLE = new Company();
 }
 
-public class ConstantEx1 {
+public class ConstantEx {
 	public static void main(String[] arg) {
 		//if(Fruit.APPLE == Company.APPLE) {
 		Fruit type = Fruit.APPLE;
@@ -123,4 +122,3 @@ public class ConstantEx1 {
 		}
 	}
 }
-*/
